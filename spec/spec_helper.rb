@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "gem_test"
+require "gem_test2020"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

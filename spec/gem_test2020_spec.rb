@@ -1,6 +1,6 @@
-RSpec.describe GemTest do
+RSpec.describe GemTest2020 do
   it "has a version number" do
-    expect(GemTest::VERSION).not_to be nil
+    expect(GemTest2020::VERSION).not_to be nil
   end
 
   it "does something useful" do

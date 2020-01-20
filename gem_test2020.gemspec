@@ -1,16 +1,16 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "gem_test/version"
+require "gem_test2020/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "gem_test"
-  spec.version       = GemTest::VERSION
+  spec.name          = "gem_test2020"
+  spec.version       = GemTest2020::VERSION
   spec.authors       = ["Alex"]
   spec.email         = ["azuev061981@gmail.com"]
 
-  spec.summary       = %q{gem_test - Simple gem for .....}
+  spec.summary       = %q{gem_test2020 - Simple gem for .....}
   spec.description   = %q{Simple gem for .....}
-  spec.homepage      = "https://github.com/AlexAlex2014/gem_test"
+  spec.homepage      = "https://github.com/AlexAlex2014/gem_test2020"
   spec.license       = "MIT"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
